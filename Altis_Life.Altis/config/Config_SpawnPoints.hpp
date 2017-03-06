@@ -63,39 +63,32 @@ class CfgSpawnPoints {
         };
 
         class Cop {
-            class Kavala {
-                displayName = "Kavala HQ";
-                spawnMarker = "cop_spawn_1";
+            class bwfeldhq {
+                displayName = "Feldjäger HQ";
+                spawnMarker = "bw_feld_1";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
             };
 
-            class Athira {
-                displayName = "Athira HQ";
-                spawnMarker = "cop_spawn_3";
+            class bwauf {
+                displayName = "Feldjäger Aussenposten";
+                spawnMarker = "bw_feld_2";
                 icon = "\a3\ui_f\data\map\MapControl\fuelstation_ca.paa";
                 conditions = "";
             };
 
-            class Pyrgos {
-                displayName = "Pyrgos HQ";
-                spawnMarker = "cop_spawn_2";
+            class bwhq {
+                displayName = "Bundeswehr HQ";
+                spawnMarker = "bw_hq";
                 icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
                 conditions = "";
             };
 
-            class Air {
-                displayName = $STR_MAR_Police_Air_HQ;
-                spawnMarker = "cop_spawn_4";
+            class bwau {
+                displayName = "Bundeswehr Aussenposten";
+                spawnMarker = "bw_au";
                 icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
-                conditions = "call life_coplevel >= 2 && {license_cop_cAir}";
-            };
-
-            class HW {
-                displayName = $STR_MAR_Highway_Patrol;
-                spawnMarker = "cop_spawn_5";
-                icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
-                conditions = "call life_coplevel >= 3";
+                conditions = "";
             };
         };
 
