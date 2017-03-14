@@ -19,3 +19,4 @@ player linkItem "ItemWatch";
 
 [] call life_fnc_playerSkins;
 [] call life_fnc_saveGear;
+[player, uniform player] call life_fnc_equipGear;

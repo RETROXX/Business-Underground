@@ -106,3 +106,4 @@ for "_i" from 0 to 1 step 0 do {
     };
     uiSleep 1;
 };
+[player, uniform player] call life_fnc_equipGear;

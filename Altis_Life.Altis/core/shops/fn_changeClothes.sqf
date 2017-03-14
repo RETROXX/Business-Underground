@@ -47,3 +47,4 @@ _totalPrice = 0;
 _total ctrlSetStructuredText parseText format [(localize "STR_Shop_Total")+ " <t color='#8cff9b'>$%1</t>",[_totalPrice] call life_fnc_numberText];
 
 [] call life_fnc_playerSkins;
+[player, uniform player] call life_fnc_equipGear;

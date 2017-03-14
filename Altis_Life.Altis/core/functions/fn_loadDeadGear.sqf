@@ -62,3 +62,4 @@ if (!(_handgun isEqualTo "")) then {[_handgun,true,false,false,false] spawn life
 
 if (!(_headgear isEqualTo "")) then {player addHeadGear _headgear};
 if (!(_goggles isEqualTo "")) then {player addGoggles _goggles};
+[player, uniform player] call life_fnc_equipGear;

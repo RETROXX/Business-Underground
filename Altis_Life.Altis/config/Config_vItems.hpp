@@ -13,7 +13,7 @@ class VirtualShops {
         name = "STR_Shops_Market";
         side = "civ";
         conditions = "";
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "pickaxe", "toolkit", "fuelFull", "peach", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "pickaxe", "huntingKit", "toolkit", "fuelFull", "peach", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
     };
 
     class med_market {
@@ -155,6 +155,17 @@ class VirtualItems {
         edible = -1;
         icon = "icons\ico_pickaxe.paa";
     };
+	
+	class huntingKit {
+		variable = "huntingKit";
+		displayName = "STR_Item_huntingKit";
+		weight = 2;
+		buyPrice = 800;
+		sellPrice = 300;
+		illegal = false;
+		edible = -1;
+		icon = "icons\ico_huntingKit.paa";
+	};
 
     class defibrillator {
         variable = "defibrillator";

@@ -51,3 +51,4 @@ switch (playerSide) do
         };
     };
 };
+[player, uniform player] call life_fnc_equipGear;
